@@ -14,3 +14,5 @@ Noir is open-source project and made it with ❤️
 
 ## Noir Documentation
 > [https://github.com/noir-cr/docs](https://github.com/noir-cr/docs)
+
+![](/docs/assets/images/CONTRIBUTORS.svg)
