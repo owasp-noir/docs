@@ -1,7 +1,7 @@
 title: Noir
 description: >- # this means to ignore newlines until "baseurl:"
   Noir is an attack surface detector form source code.
-baseurl: "" 
+baseurl: "/docs/" 
 url: ""
 github_username:  noir-cr
 
