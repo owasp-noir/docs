@@ -5,10 +5,12 @@ permalink: /contribute/
 has_children: true
 ---
 
-Noir is an attack surface detector form source code.
+Noir is open-source project and made it with ❤️ 
 
-```bash
-brew install noir
-```
+## Noir
+> [https://github.com/noir-cr/noir](https://github.com/noir-cr/noir)
 
+![](https://raw.githubusercontent.com/noir-cr/noir/main/CONTRIBUTORS.svg)
 
+## Noir Documentation
+> [https://github.com/noir-cr/docs](https://github.com/noir-cr/docs)
