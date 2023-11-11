@@ -33,3 +33,23 @@ noir -b ./app/ --send-es http://localhost:9200/noir/url
 ```
 
 ![](https://github.com/hahwul/noir/assets/13212227/4ee8d7ab-4a90-45df-9a79-293390b5d505)
+
+### Send with Headers
+
+Command
+```bash
+noir -b . -u http://localhost:4000 \
+     --send-proxy http://localhost:8090 \
+     --with-headers "X-API-Key: abcdefg" \
+     --with-headers "Device-ID: 1290874198274"
+```
+
+Request
+```http
+GET http://localhost:4000/secret.html HTTP/1.1
+X-API-Key: abcdefg
+Device-ID: 1290874198274
+User-Agent: Noir/0.10.0
+Accept: */*
+host: localhost:4000
+```
