@@ -1,8 +1,8 @@
 ---
 layout: page
 title: What is Noir?
-permalink: /get-started/about/
-parent: Get Started
+permalink: /getting-started/about/
+parent: Getting Started
 nav_order: 1
 ---
 

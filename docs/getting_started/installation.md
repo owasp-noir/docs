@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Installation
-permalink: /get-started/installation/
-parent: Get Started
+permalink: /getting-started/installation/
+parent: Getting Started
 nav_order: 2
 ---
 

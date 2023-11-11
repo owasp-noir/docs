@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Advanced
-permalink: /advanced/
+title: Getting Further
+permalink: /getting-further/
 has_children: true
 nav_order: 2
 ---

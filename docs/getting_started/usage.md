@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Usage
-permalink: /get-started/usage/
-parent: Get Started
+permalink: /getting-started/usage/
+parent: Getting Started
 nav_order: 3
 ---
 

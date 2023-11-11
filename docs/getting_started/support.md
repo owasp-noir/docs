@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Supports
-permalink: /get-started/supports/
-parent: Get Started
+permalink: /getting-started/supports/
+parent: Getting Started
 nav_order: 4
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: JSON Structure
-permalink: /advanced/json/
-parent: Advanced
+permalink: /getting-further/json/
+parent: Getting Further
 nav_order: 1
 ---
 
