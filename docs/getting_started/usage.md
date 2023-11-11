@@ -47,3 +47,26 @@ Usage: noir <flags>
     -v, --version                    Show version
     -h, --help                       Show help
 ```
+
+## Example
+```bash
+# noir -b my_sources
+
+[*] Detecting technologies to base directory.
+[I] Detected 1 technologies.
+    ruby_rails
+[*] Initiate code analysis based on the detected technology.
+[*] Starting analysis of endpoints.
+    19 Analyzers initialized
+    Analysis to 1 technologies
+    6 endpoints found
+[*] Optimizing endpoints.
+[I] Finally identified 6 endpoints.
+[*] Generating Report.
+GET /secret.html
+GET /posts
+GET /posts/1
+POST /posts {"id":"","title":"","context":""} X-API-KEY:
+PUT /posts/1 {"id":"","title":"","context":""} X-API-KEY:
+DELETE /posts/1
+```
