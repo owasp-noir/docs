@@ -3,38 +3,27 @@ description: >- # this means to ignore newlines until "baseurl:"
   Noir is an attack surface detector form source code.
 baseurl: "/docs" 
 url: ""
-github_username:  noir-cr
-
-# Build settings
+repository: noir-cr/noir
 theme: just-the-docs
+
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Set just the docs
 
 logo: "/assets/images/noir.png"
 favicon_ico: "/assets/images/noir.png"
 color_scheme: dark
+
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
 
 aux_links:
   "GitHub":
@@ -64,3 +53,7 @@ search:
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
   button: false
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
