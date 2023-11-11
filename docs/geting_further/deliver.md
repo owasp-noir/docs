@@ -26,6 +26,15 @@ noir -b . -u http://localhost:4000 --send-proxy http://localhost:8090
 
 ![](/docs/assets/images/contents/send-proxy.png)
 
+If you're using BurpSuite, referring to the link below for Send Proxy would be beneficial.
+
+- [https://github.com/noir-cr/noir/issues/27](https://github.com/noir-cr/noir/issues/27)
+- [https://portswigger.net/burp/documentation/desktop/tools/proxy/invisible](https://portswigger.net/burp/documentation/desktop/tools/proxy/invisible)
+
+In summary, it's about information regarding an invisible proxy, and there might be a need for certain configurations(`Checking 'support invisible proxying'`) in BurpSuite.
+
+![](https://user-images.githubusercontent.com/11337016/262098771-30e15757-d3fd-4c7c-b37c-4d16a3e61586.png)
+
 ### Send to Elastic Search
 ```bash
 # noir -b <BASE-PATH> --send-es http://<ES-ENDPOINT>/<INDEX>/<TYPE>
