@@ -27,7 +27,11 @@ exclude:
 
 aux_links:
   "GitHub":
-    - "//github.com/noir-cr/noir"
+    - "https://github.com/noir-cr/noir"
+
+nav_external_links:
+  - title: Noir on GitHub
+    url: https://github.com/noir-cr/noir
 
 search_enabled: true
 search:
