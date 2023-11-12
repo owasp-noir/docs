@@ -3,7 +3,7 @@ layout: page
 title: Deliver
 permalink: /getting-further/deliver/
 parent: Getting Further
-nav_order: 2
+nav_order: 3
 ---
 
 ## Flags
